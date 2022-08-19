@@ -16,3 +16,8 @@ exclude:
   - "Gemfile.lock"
 plugins:
   - jekyll-jupyter-notebook
+
+collections:
+  mycollection:
+    output: true
+    permalink: /mycollection/:path
